@@ -5,9 +5,10 @@ i = 0
 
 while i < collection.length
 
-  yield (collection[i])
+ if yield (collection[i])
+   selected << collection[i]
 
 i += 1
 end
-
+  selected
 end
