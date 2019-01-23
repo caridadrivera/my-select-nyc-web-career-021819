@@ -1,13 +1,13 @@
 def my_select(collection)
-  selected =[]
+  selectedArr = []
   
 i = 0
 
 while i < collection.length
 
- if yield(collection[i]
+ if yield(collection[i])
    
-   selected.push(collection[i])
+   selectedArr.push(collection[i])
 
 i += 1
 end
