@@ -7,7 +7,7 @@ while i < collection.length
 
  if yield(collection[i]
    
-   selected << collection[i]
+   selected.push(collection[i])
 
 i += 1
 end
