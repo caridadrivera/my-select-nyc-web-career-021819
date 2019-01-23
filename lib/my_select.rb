@@ -8,6 +8,7 @@ while i < collection.length
  if yield(collection[i])
    
    selectedArr.push(collection[i])
+end 
 
 i += 1
 end
