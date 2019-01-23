@@ -11,5 +11,5 @@ while i < collection.length
 
 i += 1
 end
-  selected
+  selectedArr
 end
