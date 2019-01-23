@@ -1,6 +1,6 @@
 def my_select(collection)
   
-collection.select 
+i = 0
   yield (collection[i])
 
 
